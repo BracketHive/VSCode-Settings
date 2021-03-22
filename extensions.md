@@ -1,4 +1,4 @@
-<h1> Extensions </h1>
+## Extensions 
 
 1. HookyQR
 2. Indent one space
