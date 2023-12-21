@@ -4,6 +4,7 @@
       "**/bower_components": true,
       "**/*.code-search": true
     },
+    "editor.fontFamily": "JetBrains Mono",
     "search.useIgnoreFiles": false,
     "explorer.openEditors.visible": 0,
     "editor.linkedEditing": true,
@@ -40,5 +41,6 @@
       "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Night Owl"
   }
