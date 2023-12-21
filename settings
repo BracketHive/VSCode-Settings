@@ -1,103 +1,44 @@
 {
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/*.code-search": true
+    },
+    "search.useIgnoreFiles": false,
     "explorer.openEditors.visible": 0,
+    "editor.linkedEditing": true,
     "editor.snippetSuggestions": "top",
     "emmet.showAbbreviationSuggestions": false,
+    "emmet.useInlineCompletions": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": false,
-    "workbench.colorTheme": "Just Black",
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.fontLigatures": true,
-    "terminal.integrated.fontSize": 20,
-    "editor.fontSize": 20,
+    "editor.lineHeight": 0,
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
     "files.autoSave": "off",
-    "editor.fontFamily": "Anonymous Pro",
-    "markdown.preview.fontSize": 36,
+    "markdown.preview.fontSize": 18,
     "editor.tabSize": 2,
-    "editor.detectIndentation": true,
+    "editor.detectIndentation": false,
     "editor.minimap.enabled": false,
-    "files.exclude": { "**/.*": true },
+    "eslint.enable": true,
+    "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
     "workbench.startupEditor": "newUntitledFile",
     "editor.suggestSelection": "first",
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
+    "git.autofetch": true,
+    "extensions.ignoreRecommendations": true,
+    "workbench.activityBar.location": "top",
+    "liveServer.settings.donotVerifyTags": true,
     "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+      "editor.defaultFormatter": "vscode.html-language-features"
     },
     "[vue]": {
-        "editor.defaultFormatter": "octref.vetur"
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "Vue.volar"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "workbench.colorCustomizations": {},
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": [
-                    "keyword.operator.logical"
-                ],
-                "settings": {
-                    "fontStyle": ""
-                }
-            },
-            {
-                "scope": [
-                    "keyword.operator.logical"
-                ],
-                "settings": {
-                    "fontStyle": ""
-                }
-            },
-            {
-                "name": "envKeys",
-                "scope": "string.quoted.double.env,source.env,constant.numeric.env",
-                "settings": {
-                    "foreground": "#19354900"
-                }
-            },
-            {
-                "scope": [
-                    "keyword.operator.logical"
-                ],
-                "settings": {
-                    "fontStyle": ""
-                }
-            },
-            {
-                "scope": [
-                    "keyword.operator.logical"
-                ],
-                "settings": {
-                    "fontStyle": ""
-                }
-            },
-            {
-                "name": "envKeys",
-                "scope": "string.quoted.double.env,source.env,constant.numeric.env",
-                "settings": {
-                    "foreground": "#19354900"
-                }
-            }
-        ]
-    }
-}
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false
+  }
