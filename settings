@@ -42,5 +42,7 @@
     },
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "workbench.colorTheme": "Night Owl"
+    "workbench.colorTheme": "Night Owl",
+    "splitHTMLAttributes.closingBracketOnNewLine": true,
+    "splitHTMLAttributes.sortOrder": ["^v-if", "^v-else", "^v-show", "^v-model", "^v-for", "^:key", "^key", "^v-", "^:", "^@click", "^@", "^id", "^class", "^.*=\""]
   }
