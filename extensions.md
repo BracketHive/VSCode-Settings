@@ -5,3 +5,5 @@
 3. Material icon theme
 4. Split html attributes
 5. Todo highlight
+6. Console ninja
+7. rainglow
