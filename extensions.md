@@ -6,4 +6,7 @@
 4. Split html attributes
 5. Todo highlight
 6. Console ninja
-7. rainglow
+7. Toggle Excluded Files
+8. Apc
+9. VSCode Neovim
+10. Which Key
