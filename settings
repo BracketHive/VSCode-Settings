@@ -1,13 +1,21 @@
 {
-
+  // open json editor for settings
   "workbench.settings.editor": "json",
 
   // Theme
-  "workbench.colorTheme": "Shades of Purple",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Aura Dark",
+  "workbench.iconTheme": "moxer-icons",
 
   // Change font
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Geist Mono",
+  "scm.inputFontFamily": "Geist Mono",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "chat.editor.fontFamily": "Geist Mono",
+  "debug.console.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "notebook.output.fontFamily": "Geist Mono",
+  "markdown.preview.fontFamily": "Geist Mono",
+  "editor.inlayHints.fontFamily": "Geist Mono",
 
   // Font size
   "editor.fontSize": 14,
@@ -19,6 +27,51 @@
   "editor.scrollbar.vertical": "auto",
   "window.titleBarStyle": "custom",
   "editor.scrollbar.horizontal": "auto",
+
+  // APC
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 28
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 12,
+      "y": 10
+    }
+  },
+  "apc.font.family": "Geist Mono",
+  "apc.monospace.font.family": "Geist Mono",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 28,
+    "fontSize": 12
+  },
+
+  // Cusom css
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 12px !important",
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    ".tabs-and-actions-container > .editor-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".titlebar-right": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+    ".split-view-view .visible": "background-color: #110f17 !important"
+  },
+
+  // Aura theme customisation
+  "workbench.colorCustomizations": {
+    "[Aura Dark]": {
+      "editor.background": "#110f17",
+      "terminal.background": "#110f17",
+      "activityBar.background": "#110f17",
+      "statusBar.background": "#110f17",
+      "editorGroupHeader.tabsBackground": "#110f17",
+      "tab.inactiveBackground": "#110f17"
+    }
+  },
 
   // Toggle excluded files
   "files.exclude": {
@@ -59,55 +112,134 @@
 
   // Misc
   "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
   "editor.tabSize": 2,
-  "javascript.preferences.quoteStyle": "single",
   "editor.linkedEditing": true,
+  "breadcrumbs.filePath": "off",
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/*.code-search": true
-  },
-  "search.useIgnoreFiles": false,
-  "emmet.showAbbreviationSuggestions": false,
-  "emmet.useInlineCompletions": true,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.formatOnPaste": true,
-  "editor.lineHeight": 0,
-  "files.autoSave": "onFocusChange",
-  "editor.detectIndentation": false,
-  "eslint.enable": true,
-  "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
-  "editor.suggestSelection": "first",
-  "git.autofetch": true,
-  "extensions.ignoreRecommendations": true,
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "splitHTMLAttributes.closingBracketOnNewLine": true,
-  "splitHTMLAttributes.sortOrder": ["^v-if", "^v-else", "^v-show", "^v-model", "^v-for", "^:key", "^key", "^v-", "^:", "^@click", "^@", "^id", "^class", "^.*=\""],
+  "window.zoomLevel": 0.75,
   "terminal.integrated.env.osx": {},
-  "window.zoomLevel": 1,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "typescript.preferences.quoteStyle": "single",
-  "prettier.jsxSingleQuote": true,
-  "workbench.activityBar.location": "top"
 }
+
+// {
+
+//   "workbench.settings.editor": "json",
+
+//   // Theme
+//   "workbench.colorTheme": "Aura Dark",
+//   "workbench.iconTheme": "material-icon-theme",
+
+//   // Change font
+//   "editor.fontFamily": "JetBrains Mono",
+
+//   // Font size
+//   "editor.fontSize": 14,
+//   "terminal.integrated.fontSize": 14,
+
+//   // ui
+//   "editor.minimap.enabled": false,
+//   "window.commandCenter": false,
+
+//   // Toggle excluded files
+//   "files.exclude": {
+//     "**/.git": true,
+//     "**/.svn": true,
+//     "**/.hg": true,
+//     "**/CVS": true,
+//     "**/.DS_Store": true,
+//     "**/Thumbs.db": true,
+//     "**/node_modules": true,
+//     "**/.next": true,
+//     "**/.husky": true,
+//     "**/drizzle": true,
+//     "**/dist": true,
+//     "**/.todo.md": true,
+//     "**/.vscode": true,
+//     "**/.eslintrc.cjs": true,
+//     "**/.editorconfig": true,
+//     "**/.gitignore": true,
+//     "**/.lintstagedrc.mjs": true,
+//     "**/.markdownlint.json": true,
+//     "**/.markdownlintignore": true,
+//     "**/.prettierignore": true,
+//     "**/bun.lockb": true,
+//     "**/cspell.json": true,
+//     "**/package-lock.json": true,
+//     "**/pnpm-lock.yaml": true,
+//     "**/next-env.d.ts": true,
+//     "**/postcss.config.cjs": true,
+//     "**/prettier.config.js": true,
+//     "**/README.md": true,
+//     "**/next.config.js": true,
+//     "**/tailwind.config.ts": true,
+//     "**/drizzle.config.ts": true,
+//     "**/migrate.ts": true,
+//     "**/.env.example": true
+//   },
+
+//   // Misc
+//   "workbench.startupEditor": "none",
+//   "editor.tabSize": 2,
+//   "javascript.preferences.quoteStyle": "single",
+//   "editor.linkedEditing": true,
+//   "files.trimTrailingWhitespace": true,
+//   "[markdown]": {
+//     "files.trimTrailingWhitespace": false
+//   },
+//   "editor.bracketPairColorization.enabled": true,
+//   "editor.guides.bracketPairs": true,
+//   "search.exclude": {
+//     "**/node_modules": true,
+//     "**/bower_components": true,
+//     "**/*.code-search": true
+//   },
+//   "search.useIgnoreFiles": false,
+//   "emmet.showAbbreviationSuggestions": false,
+//   "emmet.useInlineCompletions": true,
+//   "editor.multiCursorModifier": "ctrlCmd",
+//   "editor.formatOnPaste": true,
+//   "editor.lineHeight": 0,
+//   "files.autoSave": "onFocusChange",
+//   "editor.detectIndentation": false,
+//   "eslint.enable": true,
+//   "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
+//   "editor.suggestSelection": "first",
+//   "git.autofetch": true,
+//   "extensions.ignoreRecommendations": true,
+//   "[html]": {
+//     "editor.defaultFormatter": "vscode.html-language-features"
+//   },
+//   "[vue]": {
+//     "editor.defaultFormatter": "Vue.volar"
+//   },
+//   "[typescript]": {
+//     "editor.defaultFormatter": "vscode.typescript-language-features"
+//   },
+//   "explorer.confirmDelete": false,
+//   "explorer.confirmDragAndDrop": false,
+//   "splitHTMLAttributes.closingBracketOnNewLine": true,
+//   "splitHTMLAttributes.sortOrder": ["^v-if", "^v-else", "^v-show", "^v-model", "^v-for", "^:key", "^key", "^v-", "^:", "^@click", "^@", "^id", "^class", "^.*=\""],
+//   "terminal.integrated.env.osx": {},
+//   "window.zoomLevel": 1,
+//   "[javascriptreact]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   "[typescriptreact]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   },
+//   "typescript.preferences.quoteStyle": "single",
+//   "prettier.jsxSingleQuote": true,
+//   "[json]": {
+//     "editor.defaultFormatter": "vscode.json-language-features"
+//   },
+//   "workbench.activityBar.location": "top",
+//   "console-ninja.featureSet": "Community",
+//   "[scss]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+//   }
+// }
